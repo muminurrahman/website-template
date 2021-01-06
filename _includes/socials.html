@@ -1,0 +1,12 @@
+<!-- font awesome social media icons -->
+<ul class="social-icons">
+    {% for i in site.data.socials %}
+        <li>
+            <a href="https://www.{{ i.platform | downcase }}.com/" 
+                class="fab fa-{{i.platform | downcase }}" 
+                title="{{ i.platform }}" 
+                target="_blank">
+            </a>
+        </li>
+    {% endfor %}
+</ul>

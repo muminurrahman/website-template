@@ -1,0 +1,14 @@
+- img: 01-stock_image.jpg
+  alt: First slide
+  label: First slide label
+  caption: Nulla vitae elit libero, a pharetra augue mollis interdum.
+
+- img: 02-stock_image.jpg
+  alt: Second slide
+  label: Second slide label
+  caption: Nulla vitae elit libero, a pharetra augue mollis interdum.
+
+- img: 03-stock_image.jpg
+  alt: Third slide
+  label: Third slide label
+  caption: Nulla vitae elit libero, a pharetra augue mollis interdum.

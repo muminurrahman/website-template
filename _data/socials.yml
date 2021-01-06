@@ -1,0 +1,6 @@
+- platform: Facebook
+- platform: Instagram
+- platform: Twitter
+- platform: YouTube
+- platform: Linkedin
+- platform: GitHub
