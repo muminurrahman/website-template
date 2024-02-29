@@ -1,0 +1,22 @@
+{
+  "carousel_slides": [
+    {
+      "img": "01-stock-image.jpg",
+      "alt": "First slide",
+      "label": "First slide label",
+      "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "img": "02-stock-image.jpg",
+      "alt": "Second slide",
+      "label": "Second slide label",
+      "caption": "In consequat mollis suscipit. Donec mauris erat."
+    },
+    {
+      "img": "03-stock-image.jpg",
+      "alt": "Third slide",
+      "label": "Third slide label",
+      "caption": "Nulla vitae elit libero, a pharetra augue mollis interdum."
+    }
+  ]
+}

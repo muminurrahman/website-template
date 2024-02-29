@@ -1,0 +1,28 @@
+{
+    "social_media": [
+        {
+            "platform": "Facebook",
+            "user_path": ""
+        },
+        {
+            "platform": "Instagram",
+            "user_path": ""
+        },
+        {
+            "platform": "Twitter",
+            "user_path": ""
+        },
+        {
+            "platform": "LinkedIn",
+            "user_path": ""
+        },
+        {
+            "platform": "GitHub",
+            "user_path": "muminurrahman/website-template/"
+        },
+        {
+            "platform": "YouTube",
+            "user_path": ""
+        }
+    ]
+}

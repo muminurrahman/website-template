@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /website-template/
+exclude: ['README.md']
+title: BrandName

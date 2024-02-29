@@ -1,0 +1,13 @@
+<!-- Bootstrap icons social media icons -->
+<ul class="social-icons">
+    {% for i in site.data.socials.social_media %}
+    <li>
+        <a href="https://www.{{ i.platform | downcase }}.com/{{ i.user_path }}"
+            class="bi bi-{{i.platform | downcase }}" 
+            data-bs-placement="bottom" 
+            title="{{ i.platform }}" 
+            target="_blank">
+        </a>
+    </li>
+    {% endfor %}
+</ul>
