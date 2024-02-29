@@ -1,0 +1,134 @@
+html {
+	scroll-behavior: smooth;
+	background-color: #222;
+}
+
+body {
+	position: relative;
+	min-width: 320px;
+}
+
+footer {
+	padding: 0.85em;
+	background: #111;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: small;
+}
+
+footer>p {
+	margin: 0;
+}
+
+h1 {
+	margin-bottom: 1em;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 550;
+	word-break: break-word;
+}
+
+h2 {
+	padding-top: 0.6em;
+}
+
+a, a:hover {
+	color: inherit;
+}
+
+iframe {
+	border: none;
+	width: 100%;
+	height: 25em;
+}
+
+#home {
+	background-color: #6a0034;
+	color: #ff6c4f;
+}
+
+#about {
+	background-color: #ffc911;
+	color: #631f00;
+}
+
+#contact {
+	background-color: #38005b;
+	color: #ffffff;
+}
+
+
+/******* BOOTSTRAP OVERIDE *******/
+
+
+.navbar {
+	background: #222;
+	transition: 0.7s; /* Transition effect when sliding down (and up) */
+}
+
+.navbar-toggler {
+	border: none;
+	padding: 0;
+}
+
+.carousel {
+	margin: 4em 0;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+/******* FONT AWESOME STYLING *******/
+
+.fa-bars {
+	color: white;
+}
+
+.fab {
+	background: white;
+	color: #38005b;
+	margin: 0 5px 5px 0;
+	padding: 10px 0;
+	height: 50px;
+	width: 60px;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fab:hover {
+	text-decoration: none;
+}
+
+.fa-facebook-f:hover,
+.fa-facebook-f:focus {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+	background: #125688;
+	color: white;
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+	background: #1da0f2;
+	color: white;
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+	background: #bb0000;
+	color: white;
+}
+
+.fa-linkedin-in:hover,
+.fa-linkedin-in:focus {
+	background: #0073b0;
+	color: white;
+}
