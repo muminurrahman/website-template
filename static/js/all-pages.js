@@ -1,25 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let tags = document.querySelectorAll("h1, main, footer");
-
+  const tags = document.querySelectorAll("h1, main, footer");
+  let navbarToggler = document.querySelector('.navbar-toggler');
+  
   for (let i = 0; i < tags.length; i++) {
     tags[i].addEventListener("click", function () {
       let collapseElement = document.querySelector('.navbar-collapse');
+      const bsCollapse = new bootstrap;
+      
       if (collapseElement.classList.contains("show")) {
-        let bsCollapse = new bootstrap.Collapse(collapseElement, {
-          toggle: true
-        });
+        navbarToggler.setAttribute('title', 'Expand');
+
+        bsCollapse.Collapse(collapseElement, {toggle: true});
       }
     });
   }
-  
-  let navbar_toggler = document.querySelector('.navbar-toggler');
-  navbar_toggler.onclick = function() {myFunction()};
 
-  function myFunction() {
-    if (navbar_toggler.classList.contains("collapsed")) {
-      navbar_toggler.setAttribute('title', 'Expand');
-    } else {
-      navbar_toggler.setAttribute('title', 'Collaspe');
-    }
-  }   
+  navbarToggler.addEventListener("click", function () {
+    if (navbarToggler.classList.contains("collapsed"))
+      navbarToggler.setAttribute('title', 'Expand');
+    else if (!navbarToggler.classList.contains("collapsed"))
+      navbarToggler.setAttribute('title', 'Collapse');
+  });
+  
 });

@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="theme-color" content="#212529" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#212529">
 
+	
 	<title>{{ page.title }} | {{ site.title }}</title>
+	
+	
+	<link href="{{ site.baseurl }}static/img/favicon.png" rel="icon">
 
-	<link rel="icon" href="{{ site.baseurl }}static/img/favicon.png" />
-
-	<!-- Bootstrap CSS library -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
 	      rel="stylesheet" 
-	      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" 
+	      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
 	      crossorigin="anonymous">
-
-	<!-- Bootstrap Icons library -->	
-	<link rel="stylesheet" 
-	      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-	<link rel="stylesheet" href="{{ site.baseurl }}static/css/styles.css" type="text/css" />
+	
+	<!-- Bootstrap Icons -->	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.min.css" 
+	      rel="stylesheet">
+	
+	<!-- Custom CSS -->
+	<link href="{{ site.baseurl }}static/css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -35,9 +38,9 @@
 
 	{% include footer.html %}
 
-	<!-- Bootstrap JS library -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" 
-		integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" 
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" 
 		crossorigin="anonymous"></script>
 
 	<!-- Custom scripts -->
